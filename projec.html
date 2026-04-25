@@ -19,15 +19,16 @@
               <img src="ChatGPT Image Apr 24, 2026, 10_40_10 PM.png" width= "125px" alt="logo">
         </div>
         <nav>
-           <a href=""><u>Home</u></a> |
-           <a href=""><u>Products</u></a> |
-           <a href=""><u>About</u></a> |
-           <a href=""><u>Contact</u></a> |
-           <a href=""><u>Account</u></a> |
-          </a>
+            <ul id="MenuItems">
+               <li><a href=""><u>Home</u></a></li>
+               <li><a href=""><u>Products</u></a></li>
+               <li><a href=""><u>About</u></a></li>
+               <li><a href=""><u>Contact</u></a></li>
+               <li><a href=""><u>Account</u></a></li>
+            </ul>
         </nav>
         <img src="images\Green Shopping Cart PNG ,dibujos  Imágenes Prediseñadas De Carro De Compras, Carrito De Compras, Verde PNG y PSD para Descargar Gratis _ Pngtree.jpg"width="30" height="30" alt="cart">
-    
+        <img src="" class="menu-icon" alt="menu-icon"onclick="menutoggle()">
         </div>
         <div class="row">
             <div class="col-2">
@@ -64,13 +65,15 @@
             </div>
         </div>
         </div>
+        <br>
+         <br>
   <!---Featured Products--->      
         <div class="small-container">
-            <h2><u>Featured Products</u></h2>
+            <h2 class="title">Featured Products</h2>
             <div class="row">
-                <div class="col-4">
-                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp">
-                    <h4>Plush Toy</h4>
+                <div class="col-5">
+                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp" width = "310px" height = "310px">
+                    <h4><b>Plush Toy</b></h4>
                     <div class="rating">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -81,9 +84,9 @@
                     <p>$19.99</p>
 
                 </div>
-                 <div class="col-4">
-                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp">
-                    <h4>Plush Toy</h4>
+                 <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
                     <div class="rating">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -94,9 +97,9 @@
                     <p>$19.99</p>
 
                 </div>
-                 <div class="col-4">
-                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp">
-                    <h4>Plush Toy</h4>
+                 <div class="col-5">
+                    <img src="images\download.jpg">
+                    <h4><b>Plush Toy</b></h4>
                     <div class="rating">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -106,9 +109,9 @@
                     </div>
                     <p>$19.99</p>
                     </div>
-                    <div class="col-4">
-                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp">
-                    <h4>Plush Toy</h4>
+                    <div class="col-5">
+                    <img src="images\Men Regular Fit Solid Spread Collar Casual Shirt.jpg">
+                    <h4><b>Plush Toy</b></h4>
                     <div class="rating">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -121,9 +124,272 @@
 
                 </div>
             </div>
+
+            <h2 class="title">Latest Products</h2>
+             <div class="row">
+                <div class="col-5">
+                    <img src="images\Make These Sweet Crochet Toys When You Need a Win.webp" width = "310px" height = "310px">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+                 <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+                 <div class="col-5">
+                    <img src="images\download.jpg">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+                    </div>
+                    <div class="col-5">
+                    <img src="images\Men Regular Fit Solid Spread Collar Casual Shirt.jpg">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+                    </div>
+                     <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+                 <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+                 <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+                 <div class="col-5">
+                    <img src="images\no es mia la foto.webp">
+                    <h4><b>Plush Toy</b></h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$19.99</p>
+
+                </div>
+
+                </div>
+                </div>
+                </div>
+            </div>
+
         </div>
-           
-            
-       
-    </body>
-</html>
+        <!---OFFER-->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images\Amigurumi_Cute_Otter_Crochet_Free_Pattern_-_Free_Amigurumi_Pattern-removebg-preview.png" class="offer">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusive Offer</p>
+                        <h1>Adorable Plush Toy Obsessions</h1>
+                        <small>Discover the irresistible charm of our Adorable Plush Toy Obsessions collection! These cuddly companions are perfect for all ages, offering comfort and joy with every hug. Whether you're looking for a gift or a new best friend, our plush toys are designed to bring smiles and warmth to your life. Don't miss out on this exclusive offer to add a touch of cuteness to your day!</small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    
+        </div>
+
+      <!----testimonials---->  
+      <div class="testimonials">
+        <div class="small-comtainer">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"The plush toys are absolutely adorable! My kids love them so much."</p>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/customer1.jpg" alt="Customer 1">
+                    <h3>- Jane Doe</h3>
+                </div>
+                  <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"The plush toys are absolutely adorable! My kids love them so much."</p>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/customer1.jpg" alt="Customer 1">
+                    <h3>- Jane Doe</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"The plush toys are absolutely adorable! My kids love them so much."</p>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/customer1.jpg" alt="Customer 1">
+                    <h3>- Jane Doe</h3>
+                </div>
+               
+            </div>
+        </div>
+      </div>
+           <!----brands-->
+           <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="" alt="brand1">
+                    </div>
+                     <div class="col-6">
+                        <img src="" alt="brand1">
+                    </div>
+                     <div class="col-6">
+                        <img src="" alt="brand1">
+                    </div>
+                     <div class="col-6">
+                        <img src="" alt="brand1">
+                    </div>
+                     <div class="col-6">
+                        <img src="" alt="brand1">
+                    </div>
+                </div>
+            </div>
+           </div>
+
+    <!----footer-->
+ <div class="footer">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1 -->
+      <div class="footer-col">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iOS mobile phone.</p>
+        <div class="app-logo">
+          <img src="images/app-store.png" alt="App Store">
+          <img src="images/google-play.png" alt="Google Play">
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="footer-col-center">
+        <img src="images/logo.png" alt="logo">
+        <p>
+          Our Purpose Is To Sustainably Make the Pleasure and Benefits of Products Accessible to the Many.
+        </p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="footer-col">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+
+    </div>
+    <hr>
+    <p class="Copyright">Copyright &copy; 2026 -Viva la Vida. All rights reserved.</p>
+  </div>
+</div> 
+</div>     
+<!----js for toggle menu-->
+    <script> 
+   
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxheight ="0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }    
+    </script>  
+    
+  </body>
+ </html>
